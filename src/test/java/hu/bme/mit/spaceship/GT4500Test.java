@@ -32,7 +32,7 @@ public class GT4500Test {
 
     // Act
     boolean result = ship.fireTorpedo(FiringMode.ALL);
-
+    int a;
     // Assert
     assertEquals(true, result);
   }
